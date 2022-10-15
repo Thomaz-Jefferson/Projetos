@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 255, 4);
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 180px;
+    background-color: rgb(0, 105, 81);
+}
+.nome{
+
+    flex: 1;
+    height: 100px;
+
+    
+}
+.nome h1{
+    flex: 1;
+    font-size: 70px;
+    text-align: center;
+}
+.subtitulo h3{
+    
+    text-decoration-line:underline;
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.container{ 
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    justify-content: space-between;
+    
+}
+.foto{
+    padding: 20px;
+    flex: 1;
+    width: 50VW ;
+    height: 400px;
+    
+    
+    
+
+
+}
+.foto2{
+    
+    margin-left: 20%;
+    flex: 1;
+    width: 50VW ;
+    height: 400px;
+}
+    
+.biografia {
+    margin-right: 30px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.link{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-right: 30px;
+    text-align: justify;
+    margin-left: 40px;
+    font-size: 20 px;
+    font-family: cursive;
+}
+img{
+    display: flex;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    background-size: cover;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 10vh;
+    
+    
+}
+.rodape{
+    flex: 1;
+    text-align: center;
+    color: #ccc;
+}
+
